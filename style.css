@@ -1,0 +1,62 @@
+:root {
+    --clr-primary-gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+
+    --clr-neutral-pale-blue: hsl(243, 100%, 93%);
+    --clr-neutral-grayish-blue: hsl(229, 7%, 55%);
+    --clr-neutral-dark-blue: hsl(228, 56%, 26%);
+    --clr-neutral-very-dark-blue: hsl(229, 57%, 11%);
+
+    --fs-base: 14px;
+
+    --ff-base: 'Raleway', sans-serif;
+
+    --fw-regular-400: 400;
+    --fw-bold-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*  general styling */
+body {
+    background-image: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--clr-neutral-pale-blue);
+    font-family: var(--ff-base);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-regular-400);
+}
+
+/* content styles */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-box {
+    background-color: var(--clr-neutral-dark-blue);
+
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
